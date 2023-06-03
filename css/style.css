@@ -1,0 +1,71 @@
+.logo {
+    display: block;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+}
+h1{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+  border: 2px solid black;
+    max-width: 60%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 80vh;
+    overflow-y: scroll;
+    border-radius: 10px;
+
+}
+
+.message {
+    background-color: rgb(2, 2, 2);
+    width: 24%;
+    margin: 17px 12px;
+    padding: 13px;
+    color: white;
+}
+
+.left {
+    float: left;
+   
+    clear: both;
+
+}
+
+.right {
+    float: right;
+   
+    clear: both;
+}
+#send-container{
+   text-align: center;
+   max-width: 1000px;
+   display: block;
+   margin: auto;
+   width: 100%;
+   
+}
+.messageInp{
+    width:80%;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkorange;
+}
+.btn{
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+
+body{
+    background-image: linear-gradient(  rgb(223, 130, 130)  ,   rgb(107, 136, 218));
+}
